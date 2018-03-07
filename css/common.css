@@ -1,0 +1,57 @@
+html{
+    background-color: gray;
+}
+
+.header{
+    background-color: gray;
+    text-align: center;
+    padding: 10px;
+}
+
+.topnav{
+    overflow: hidden;
+    background-color: darkblue;
+}
+
+.topnav a{
+    float: left;
+    display: block;
+    color: cadetblue;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.topnav a:hover{
+    background-color: yellow;
+    color: black;
+}
+
+.row-min-height{
+    padding: 0.5em;
+    min-height: 10em;
+}
+
+.row:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+@media(max-width: 600px){
+    .column{
+        width: 100%;
+    }
+}
+
+.footer{
+    background-color: gray;
+    text-align: center;
+    padding: 10px;
+}
+
+.login{
+    color: darkblue;
+    text-align: left;
+
+}
